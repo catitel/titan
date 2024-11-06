@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    background-image: url(./揺\(TAYU\)\ on\ Twitter.jfif); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+    border-radius: 50px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    font-size: 30px;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    transition: background-color 0.3s ease;
+}
+
+.icon:hover {
+    background-color: #ddd;
+}
+
+/* Cores e estilo para cada ícone */
+#facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+#twitter {
+    background-color: #00acee;
+    color: white;
+}
+
+#instagram {
+    background-color: #c32aa3;
+    color: white;
+}
+
+#linkedin {
+    background-color: #0077b5;
+    color: white;
+}
